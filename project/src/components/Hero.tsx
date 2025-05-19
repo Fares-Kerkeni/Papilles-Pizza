@@ -43,7 +43,10 @@ const Hero = () => {
           <p className="text-lg sm:text-xl font-bold text-gray-900">
             1 pizza achetée = la 2ème offerte*
           </p>
-          <p className="text-sm text-gray-600 mt-1">*À emporter uniquement</p>
+          <p className="text-sm text-gray-600 mt-1">À emporter uniquement</p>
+          <p className="text-sm text-gray-600 mt-1">
+            *Valable sur moyenne et grande la pizza la moins chére sera offerte
+          </p>
         </div>
       </div>
     </section>
