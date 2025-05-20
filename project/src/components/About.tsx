@@ -29,7 +29,7 @@ const About = () => {
             </li>
             <li>
               <p className="font-medium">Dimanche</p>
-              <p className="text-gray-300">18h - 23h30</p>
+              <p className="text-gray-300">18h - 22h30</p>
             </li>
           </ul>
         </div>

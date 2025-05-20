@@ -464,7 +464,7 @@ export const menuData: Record<string, MenuCategory["items"]> = {
       price: "9,50 €",
     },
     {
-      name: "X2",
+      name: "X6",
       description: "Chicken curry, steak, boursin, cheddar",
       price: "9,50 €",
     },
