@@ -1,4 +1,5 @@
 import { Phone } from "lucide-react";
+import logo from "/logo.png";
 
 const Hero = () => {
   return (
@@ -13,12 +14,10 @@ const Hero = () => {
       ></div>
 
       <div className="relative z-20 text-center px-4 sm:px-6 max-w-5xl mx-auto">
-        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-4 text-gray-900 drop-shadow-sm">
-          <span className="block">Papilles Pizza</span>
-          <span className="block text-3xl sm:text-4xl mt-2 text-primary">
-            Marcoussis
-          </span>
-        </h1>
+        {/* Logo centré avec padding top & bottom */}
+        <div className="py-12 flex justify-center">
+          <img className="h-20 sm:h-24 w-auto" src={logo} alt="Logo" />
+        </div>
 
         <p className="text-xl sm:text-2xl mb-8 text-gray-800">
           Livraison gratuite à domicile et au bureau -{" "}
@@ -45,7 +44,7 @@ const Hero = () => {
           </p>
           <p className="text-sm text-gray-600 mt-1">À emporter uniquement</p>
           <p className="text-sm text-gray-600 mt-1">
-            *Valable sur moyenne et grande la pizza la moins chére sera offerte
+            *Valable sur moyenne et grande, la pizza la moins chère sera offerte
           </p>
         </div>
       </div>
