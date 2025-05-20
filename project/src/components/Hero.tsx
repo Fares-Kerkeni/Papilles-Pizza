@@ -17,7 +17,7 @@ const Hero = () => {
         {/* Logo centré avec padding top & bottom */}
         <div className="py-12 flex justify-center">
           <img
-            className="h-[110px] sm:h-[116px] w-auto"
+            className="h-[125px] sm:h-[130px] w-auto"
             src={logo}
             alt="Logo"
           />
